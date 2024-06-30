@@ -9,7 +9,7 @@ const userInfoContainer= document.querySelector(".user-info-container");
 const grantAccessButton = document.querySelector("[data-grantAccess]");
 
 let currentTab = userTab;
-const API_KEY = "587d9487bc6b56911f2d80041cbe9ddb";
+const API_KEY = API_KEY;
 currentTab.classList.add("current-tab");
 getfromSessionStorage();
 
